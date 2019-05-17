@@ -19,12 +19,12 @@ int main() {
 		cin >> numero;
 	}while(numero < 0);
 
-	if(numero % 5 == 0)
+	if(numero % 2 == 0)
 	{
-		cout << "el numero es divisible per 5";
+		cout << "el numero es divisible per 2";
 	}
 	else{
-		cout << "el numero NO es divisible per 5";
+		cout << "el numero NO es divisible per 2";
 	}
 
 	return 0;
